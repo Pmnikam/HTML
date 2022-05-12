@@ -1,0 +1,217 @@
+/* external css */
+
+/* h1{
+    color: aquamarine;
+    background-color: blue;
+    text-align: center;
+    font-size: 50px;
+} */
+/* .Name{
+    color: azure;
+    background-color: blueviolet;
+
+}
+.title{
+    color: antiquewhite;
+    background-color: blue;
+    
+}
+
+#para{
+    color:grey;
+    border: 5px solid darkgreen;
+} */
+
+.header{
+    color: aliceblue;
+    background-color: chocolate;
+    text-align: center;
+    border: 2px solid black;
+    padding: 30px 40px;
+    font-size: 40px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 4px 2px black;
+}
+
+.para{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: 1.6em;
+    padding: 10px 80px;
+    border: 2px solid brown;
+    border-width: 10px;
+    border-style: dashed;
+    margin: 10px;
+
+}
+
+#my_list{
+    color: blue;
+    background-color: coral;
+    /* font-style: italic; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* #my_list li{
+    color: black;
+} */
+
+#my_list li a{
+    list-style: square;
+    color: black;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+#my_list li a:hover{
+    color: blue;
+}
+#my_list li a:active{
+    color: white;
+}
+
+.my_form label{
+    display: block;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.my_form input{
+    display: block;
+    height: 30px;
+    width: 70%;
+    /* border-radius: 10px; */
+    border: 2px solid black;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.my_form button{
+    background-color: coral;
+    color: white;
+    padding: 10px;
+    border: 2px solid chocolate;
+    font-size: large;
+    border-radius: 10px;
+}
+
+button:hover{
+    color: black;
+}
+
+.block{
+    float: left;
+    width: 33%;
+    border: 2px solid chocolate;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.block h3{
+    color: beige;
+    text-shadow: 2px black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table{
+    table-layout: auto;
+    width: 100%;
+    border: 3px solid chocolate;
+    border-collapse: collapse;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+table td{
+    padding: 20px;
+    padding-left: 65px;
+
+}
+table th{
+    padding: 20px;
+    text-decoration: underline overline;
+    background-color: green;
+}
+
+table th, td{
+    border: 3px solid coral;
+
+}
+
+thead th:nth-child(1){
+    width: 30%;
+}
+
+thead th:nth-child(2){
+    color: yellow;
+}
+
+tbody tr:nth-child(odd){
+    background-color: blueviolet;
+}
+tbody tr:nth-child(even){
+    background-color: aqua;
+}
+/* CSS grid system */
+.grid-container{
+    color: black;
+    background-color: rgb(3, 63, 3);
+    display: grid;
+    /* grid-template-columns: 200px 500px 400px 300px; */
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    /* column-gap: 30px;
+    row-gap: 20px; */
+    gap: 30px 20px;
+    padding: 20px;
+}
+
+.grid-container div{
+    background-color: rgb(221, 179, 12);
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.item1{
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    grid-column: 1/3;
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+    grid-row: 1/3;
+}
+
+.flex-container{
+    display: flex;
+    background-color: firebrick;
+    height: 100px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+
+.flex-container div{
+    background-color: beige;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+}
+
+.flex-container .item5{
+    font-size: 50px;
+
+}
+
+
+
+
